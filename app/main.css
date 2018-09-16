@@ -1,0 +1,9 @@
+@font-face {
+    font-family: primaryFont;
+    src: url('./assets/LifeisMessy.ttf');
+}
+
+@font-face {
+  font-family: secondaryFont;
+  src: url('./assets/ASafePlacetoFall.ttf');
+}
