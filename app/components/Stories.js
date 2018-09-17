@@ -35,7 +35,8 @@ export default class Stories extends Component {
 }
 const styles = {
 	Background: {
-		backgroundColor: "#F7FFF7"
+		backgroundColor: "#4ECDC4",
+		color: "#F7FFF7",
 	},
   Header: {
     marginTop: "5%",

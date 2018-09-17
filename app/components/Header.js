@@ -22,20 +22,25 @@ export default class Header extends Component {
 					<h1>Supporting Each Other</h1>
 					<h2>&#40; With a Little Help from Our Friends &#41;</h2>
 				</div>
+
 				<div className="col-5 col-sm-5 col-md-5 col-lg-5">
     			<div className="row">
 						<div className="col-11 col-sm-11 col-md-10 col-lg-8 " style={styles.TimeBubble}>
-							<h1 style={styles.TimeHeader}>July 14th</h1>
-							<h2>4-10 pm</h2>
-							<h2>Sonoma Moose Lodge</h2>
+							<h1>October 13th</h1>
+							<h2>2pm - 7pm</h2>
+							<h2>Glenét Vineyards</h2>
+							<h2>Glen Ellen</h2>
 						</div>
+					</div>
+					<div className="row">
 						<div className="col-8 col-sm-8 offset-sm-6 col-md-6 offset-md-5 col-lg-6 offset-lg-4" style={styles.TicketBubble}>
 							<h2 style={styles.blah}>Tickets</h2>
-							<h3 style={styles.bla}>$50 GEN</h3>
-							<h3 style={styles.blak}>$100 VIP</h3>
+							<h4 style={styles.bla}>$20 GENERAL ADMISSION</h4>
+							<h4 style={styles.blak}>$50 VIP</h4>
 						</div>
        		</div>
     	  </div>
+
 		 </div>
     </div>
 		)
@@ -76,15 +81,13 @@ const styles = {
   },
 	TimeBubble: {
 		borderRadius: "50%",
-		height: "300px",
-		marginTop: "-10%",
 		backgroundColor: "#D81159",
 		fontSize: "25px",
 		fontFamily: "Imprima",
-		position: "absolute"
+		padding: "9%"
 	},
 	TicketBubble: {
-		marginTop: "33%",
+		marginTop: "-8%",
 		borderRadius: "50%",
 		backgroundColor: "#52489C",
 		position: "absolute",

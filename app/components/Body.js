@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 import Header from './Header.js'
 import Stories from './Stories.js'
 import Entertainment from './Entertainment.js'
-import Volunteer from './Volunteer.js'
+import Sponsors from './Sponsors.js'
 import Intro from './Intro.js'
+import About from './About.js'
+import Patrons from './Patrons.js'
 import '../main.css';
 
 
@@ -17,9 +19,11 @@ export default class Body extends Component {
       <div className="row">
 				<Header />
 				<Intro />
+				<About />
 				<Entertainment />
 				<Stories />
-       <Volunteer />
+				<Patrons />
+       	<Sponsors />
      </div>
 		)
 	}
